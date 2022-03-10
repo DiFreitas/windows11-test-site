@@ -1,0 +1,279 @@
+.container-box{
+ max-width: 1595px;
+ margin: 0 auto;
+}
+.menu-conteudo{
+    display: flex;
+    background-color: #ffffff;
+    margin: 0 auto;
+    font-family: Segoe UI;
+    font-size: 13px;
+    width: 82.5vw;
+    height:54px;
+    align-items: center;
+    justify-content: space-between;
+}
+.windows-menu::before {
+    border-left: 2px solid #000;
+    margin-left: 1.3vw;
+    padding-left: 1.5vw;
+    content: " ";
+}
+.windows-menu{
+    font-weight: 600;
+    font-size: 18px;
+}
+.menu-principal{
+    margin-left: 20px;
+}
+.menu-expand:after{
+    font-family: 'Material Icons';
+    content: "\e5cf";
+    margin-left: 0.3em
+}
+.menu-search:after{
+    font-family: "fabric-icons";
+    content: "\e721";
+    margin-left: 0.3em;
+}
+.menu-car:after{
+    font-family: "fabric-icons";
+    content: "\e721";
+    margin-left: 0.3em;
+}
+.menu-profile:after{
+    font-family: "fabric-icons";
+    content: "\e721";
+    margin-left: 0.3em;
+}
+.menu-conjunto, .menu-principal, .menu-secundario{
+    display: flex;
+    align-items: center;
+}
+.menu-principal--botoes, .menu-secundario--botoes{
+    margin-left: 25px;
+}
+.video-logo{
+    margin-top: 2vh;
+}
+.intro{
+    position: relative;
+}
+.video-button, .gamepass-video--button{
+    display:flex;
+    font-size: 16px;
+    font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    border:1px dashed rgba(0, 0, 0, .2);
+    border-radius: 5%;
+    background-color: #0067b8;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    vertical-align: center;
+    text-align: center;
+    width: 177px;
+    height: 48px;
+    position: absolute;
+    bottom:5vh;
+    left:50%;
+    transform: translate(-50%);
+}
+.video-button, .gamepass-video--button:hover{
+    cursor:pointer;
+    
+}
+.video-button, .gamepass-video--button:before{
+    content: "\e037";
+    font-family: 'Material Icons';
+    margin-right: 1vh
+}
+.presentation-between{
+    margin: auto;
+    text-align:center;
+    width: 97vw;
+}
+.presentation-between h2{
+    margin-top: 4vw;
+    font: 34px Helvetica ;
+    font-weight: 600;
+}
+.presentation-between p{
+    font: 15px helvetica;
+    margin-top: 3vh;
+    margin-bottom: 2vw;
+}
+.presentation-between p a{
+    color: blue;
+    text-decoration: underline;
+}
+.infos{
+    display: flex;
+    justify-content: center;
+}
+.video-assist{
+    position: relative;
+}
+.video-assist--infos{
+    left: 1vw;
+    top: 1.5vw;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .4);
+    box-shadow:0px 19px 14px -13px rgba(0,0,0,0.4);
+    width: 65%;
+    height:100px;
+}
+.video-assist--tittle{
+    font: 30px "helvetica";
+    margin: 1vh 1vw;
+}
+.video-assist--text{
+    margin:10px;
+    font: 17px helvetica;
+    margin-left:1vw
+}
+.video-assist--video{
+    width:100%;
+    border-radius: 1%;
+}
+.more-infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vw;
+}
+.more-infos--image{
+    width: 545px;
+    height: 742px;
+    border-radius: 1%
+}
+.more-infos--imagebox{
+    position: relative;
+}
+.more-infos--imagebox---informations{
+    position: absolute;
+    left: 0.7vw;
+    top: 1.5vw;
+    background-color: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(15px);
+    width: 517px;
+    height:215px;
+}
+.more-infos--tittle{
+    font: 25px Segoe UI;
+    font-weight: 600;
+    margin: 1vh 1vw;
+}
+.more-infos--text{
+    margin:10px;
+    font: 18px Segoe UI;
+    text-align: justify;
+    margin: 0 1vw;
+}
+.more-infos--videobox{
+    position: relative;
+}
+.more-infos--videobox---informations{
+    position: absolute;
+    left: 0.7vw;
+    top: 1.5vw;
+    background-color: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(15px);
+    width: 1007px;
+    height:132px;
+}
+.more-infos--videobox---video{
+    height: 742px;
+    border-radius: 1%;
+}
+.efeito-fdpqueaindanaoconsigofazer{
+    height: 1090px;
+    background-color: #cccccc;
+}
+.tamanho-aleatorio-so-pra-encher-linguica{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.infos-firstplace{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 795px;
+}
+.infos-firstplace--text{
+    position: absolute;
+    width:390px;
+    right: 8%;
+}
+.infos-firstplace--title, 
+.job-and-fun--infos---title, 
+.games-images--list---infos----title{
+    font: 34px "Segoe UI";
+    font-weight: 600;
+    margin-top: .8em;
+    margin-bottom: .5em;;
+}
+.infos-firstplace--p, 
+.job-and-fun--infos---text, 
+.games-images--list---infos----text{
+    font: 15px "Segoe UI";
+    text-justify: auto;
+}
+.job-and-fun{
+    height: 1076px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.job-and-fun--infos{
+    width: 390px;
+    margin-top: 190px;
+}
+.job-and-fun--image{
+    width: 1010px;
+    box-shadow: -7px 20px 25px -6px rgba(0,0,0,0.30)
+}
+.recent-tecnology{
+    text-align: center;
+    max-width: 1275px;
+}
+.recent-tecnology--title{
+    font: 600 24px "segoe UI";
+    margin-bottom:10px;
+}
+.recent-tecnology--text{
+    font: 15px "segoe UI";
+    margin-bottom: 50px;
+}
+.gamepass{
+    position:relative;
+}
+.games-images{
+    margin-top: -3px;
+    width: 100vw;
+    height:1225px;
+    background-image: linear-gradient(rgb(34, 34, 34), rgb(194, 194, 194));
+    display: inline-block;
+}
+.games-images--list{
+    margin-top: 70px;
+    max-width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.games-images--list---infos{
+    width: 480px;
+    height: 540px;
+}
+.games-images--list---infos----text, 
+.games-images--list---infos----title{
+    text-align: center;
+    color: white;
+}
+.games-images ul li img{
+    width: 480px;
+}
